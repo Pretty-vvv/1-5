@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+  float num1, num2;
+  cout<<"Quantity of Apple: ";
+  cin>>num1;
+  cout<<"Price Per Kilogram of Apple: ";
+  cin>>num2;
+  cout<<"The Price of apple is "<<num1 * num2<<endl;
+}
